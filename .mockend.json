@@ -1,8 +1,13 @@
 {
-  "Todo": 
-    {
-      "name": "Todo 2 ",
-      "description": "What I also need to do.",
-      "completed": false
-    }
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
