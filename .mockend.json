@@ -1,10 +1,10 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Todo": {
+    "name": "string",
+    "createAt": "date",
+    "description": "string",
+    "completedOn": "date",
+    "completed": "boolean"
   },
   "Comment": {
     "body": "string",
